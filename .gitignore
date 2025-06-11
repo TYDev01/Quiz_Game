@@ -12,6 +12,7 @@ dist
 dist-ssr
 *.local
 
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
@@ -23,6 +24,3 @@ dist-ssr
 *.sln
 *.sw?
 src/components/Leadboard.jsx
-src/components/Loading.jsx
-src/components
-src/pages/Game.jsx

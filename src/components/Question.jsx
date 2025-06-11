@@ -4,6 +4,7 @@ import Timer from './Timer';
 export default function Question({ question, onAnswer, showFeedback, answerStatus }) {
   const [selectedAnswer, setSelectedAnswer] = useState(null);
 
+  // Guard against missing question
   if (!question) {
     return (
       <div className="question-error">
